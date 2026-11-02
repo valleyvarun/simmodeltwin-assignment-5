@@ -1,0 +1,20 @@
+name: tutorial-5
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - huggingface_hub
+  - pandas
+  - geopandas
+  - numpy
+  - scipy
+  - umap-learn
+  - scikit-learn
+  - altair
+  - matplotlib
+  - plotly
+  - ipykernel
+  - nbformat
+  - pip:
+    - ollama
